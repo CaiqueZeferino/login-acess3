@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('Ceu-bonito.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #44aacb;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 2.8rem;
+    color: #32324f;
+    width: 65%;
+}
+
+#msg {
+    width: 25rem;
+}
+
+#infos {
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+}
+
+#all-inputs {
+    flex-direction: column;
+    display: flex;
+    gap: 1.3rem;
+}
+
+#titlep {
+    color: aqua;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.input-field {
+    padding: 0.6rem;
+    align-items: center;
+    background-color: #ecf2f7;
+    border: none;
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+#forgot-password {
+    text-align: right;
+    font-size: 0.6rem;
+    margin-top: 0.1rem;
+    
+}
+
+#forgot-password a:hover {
+    text-decoration: none; 
+    color: purple;
+}
+
+#emojis {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+#emojis .google img {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+#emojis .facebook img {
+    width: 1.7rem; 
+    height: 1.7rem;
+}
+
+#loop {
+    color: red;
+}
+
+#input-button input {
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    background-color: #44aacb;
+    transition: background-color 0.3s, transform 0.1s; 
+    width: 100%;
+    padding: 0.4rem;
+}
+
+#input-button input:hover {
+    background-color: rgb(243, 239, 239);
+    color: #44aacb;
+}
+
+#input-button input:active {
+    background-color: #338ab6;
+    transform: translateY(0.5px); 
+}
+
